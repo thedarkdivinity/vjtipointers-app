@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>WELCOME TO THE VJTI POINTER CALCULATOR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+</head>
+  <body>
+      <header>
+          <div class="container-fluid">
+          <img src="vjti.jpg" class="img-fluid" width="100%" alt="vjti">
+          </div>
+
+    <nav class="navbar navbar-expand-sm bg-warning navbar-light">
+      
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+            
+          <li class="nav-item ">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#vjti">ABOUT VJTI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-2" href="#contact">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ml-2" href="#developer">DEVELOPER</a>
+          </li>
+      
+          <!-- FY Dropdown -->
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              FY
+            </a>
+            <div class="dropdown-menu bg-warning">
+              <a class="dropdown-item" data-toggle="modal" data-target="#myModalFYCS">CS</a>
+              <a class="dropdown-item btn" data-toggle="modal" data-target="#myModalFYIT">IT</a>
+            
+              
+              <a class="dropdown-item" href="#">EXTC</a>
+              <a class="dropdown-item" href="#">TRONICS</a>
+              <a class="dropdown-item" href="#">ELECTRICAL</a>
+              <a class="dropdown-item" href="#">PRODUCTION</a>
+              <a class="dropdown-item" href="#">MECHANICAL</a>
+              <a class="dropdown-item" href="#">TEXTILE</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              SY
+            </a>
+            <div class="dropdown-menu bg-primary">
+              <a class="dropdown-item" href="#">CS</a>
+              <a class="dropdown-item" href="#">IT</a>
+              <a class="dropdown-item" href="#">EXTC</a>
+              <a class="dropdown-item" href="#">TRONICS</a>
+              <a class="dropdown-item" href="#">ELECTRICAL</a>
+              <a class="dropdown-item" href="#">PRODUCTION</a>
+              <a class="dropdown-item" href="#">MECHANICAL</a>
+              <a class="dropdown-item" href="#">TEXTILE</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              TY
+            </a>
+            <div class="dropdown-menu bg-primary">
+              <a class="dropdown-item" href="#">CS</a>
+              <a class="dropdown-item" href="#">IT</a>
+              <a class="dropdown-item" href="#">EXTC</a>
+              <a class="dropdown-item" href="#">TRONICS</a>
+              <a class="dropdown-item" href="#">ELECTRICAL</a>
+              <a class="dropdown-item" href="#">PRODUCTION</a>
+              <a class="dropdown-item" href="#">MECHANICAL</a>
+              <a class="dropdown-item" href="#">TEXTILE</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Btech
+            </a>
+            <div class="dropdown-menu bg-primary">
+              <a class="dropdown-item" href="#">CS</a>
+              <a class="dropdown-item" href="#">IT</a>
+              <a class="dropdown-item" href="#">EXTC</a>
+              <a class="dropdown-item" href="#">TRONICS</a>
+              <a class="dropdown-item" href="#">ELECTRICAL</a>
+              <a class="dropdown-item" href="#">PRODUCTION</a>
+              <a class="dropdown-item" href="#">MECHANICAL</a>
+              <a class="dropdown-item" href="#">TEXTILE</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- The Modal FY IT -->
+<div class="modal fade" id="myModalFYIT">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-warning">
+        <h4 class="modal-title">FY IT Calculator</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="Maths">Maths:</label>
+            <select class="form-control" id="Maths" >
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="Physics">Physics:</label>
+            <select class="form-control" id="Physics">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="Chemistry">Chemistry:</label>
+            <select class="form-control" id="Chemistry">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="BEE">BEE:</label>
+            <select class="form-control" id="BEE">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="EME">EME:</label>
+            <select class="form-control" id="EME">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6" >
+          <div class="form-group">
+            <label for="CPP">CPP:</label>
+            <select class="form-control" id="CPP">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="CL">Chemistry Lab:</label>
+            <select class="form-control" id="CL">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="PL">Physics Lab:</label>
+            <select class="form-control" id="PL">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="co">CPP Lab:</label>
+            <select class="form-control" id="co">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6">
+          <div class="form-group">
+            <label for="ws">Workshop:</label>
+            <select class="form-control" id="ws">
+              <option>AA</option>
+              <option>AB</option>
+              <option>BB</option>
+              <option>BC</option>
+              <option>CC</option>
+              <option>CD</option>
+              <option>DD</option>
+              <option>FF</option>
+            </select>
+          </div>
+        </div>
+        </div>
+         <p class="text-center text-danger" id="hu">Pointer</p>
+          <input type="button" class="btn btn-primary" onclick="fycheck()" value="Check Pointer">
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <h4 class="text-center">SAYUSH KAMAT &copy;2020</h4>
+        <br>
+        <br>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <!-- The Modal FY CS-->
+    <div class="modal fade" id="myModalFYCS">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header bg-warning">
+            <h4 class="modal-title">FY CS Calculator</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="MathsCS">Maths:</label>
+                <select class="form-control" id="MathsCS" >
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="PhysicsCS">Physics:</label>
+                <select class="form-control" id="PhysicsCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="ChemistryCS">Chemistry:</label>
+                <select class="form-control" id="ChemistryCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="BEECS">BEE:</label>
+                <select class="form-control" id="BEECS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="EMECS">EME:</label>
+                <select class="form-control" id="EMECS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-6" >
+              <div class="form-group">
+                <label for="CPPCS">CPP:</label>
+                <select class="form-control" id="CPPCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="CLCS">Chemistry Lab:</label>
+                <select class="form-control" id="CLCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="PLCS">Physics Lab:</label>
+                <select class="form-control" id="PLCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="coCS">CPP Lab:</label>
+                <select class="form-control" id="coCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <div class="form-group">
+                <label for="wsCS">Workshop:</label>
+                <select class="form-control" id="wsCS">
+                  <option>AA</option>
+                  <option>AB</option>
+                  <option>BB</option>
+                  <option>BC</option>
+                  <option>CC</option>
+                  <option>CD</option>
+                  <option>DD</option>
+                  <option>FF</option>
+                </select>
+              </div>
+            </div>
+            </div>
+             <p class="text-center text-danger" id="huCS">Pointer</p>
+              <input type="button" class="btn btn-primary" onclick="fycheckCS()" value="Check Pointer">
+            </form>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <h4 class="text-center">SAYUSH KAMAT &copy;2020</h4>
+            <br>
+            <br>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    </header>
+    <section>
+        <div class="container  mt-5 mx-auto">
+          <br>
+            <h1 class="text-center">WHY USE US?</h1>
+            <hr class="w-25 bg-primary">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12  text-center yo">
+                   <h3>Accurate</h3>
+                   <hr class="w-25 bg-primary">
+                   <p>
+                       Our website gives an accurate prediction of your pointer in minimum time.
+                   </p>
+                    
+                </div>
+                <div class="col-lg-4 col-md-4 col-12   text-center yo">
+                    <h3>Easy to use</h3>
+                    <hr class="w-25 bg-primary">
+                    <p>
+                        Our website gives an accurate prediction of your pointer in minimum time.Our UI is well renowned for it's simplicity and elegant design. This is the best place to calculate your pointer with a very active development team.This App get's constantly updated as per the changes suggested by the end-users.
+                    </p>
+
+                     
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-12   text-center yo">
+                    <h3>Know Your KTs</h3>
+                    <hr class="w-25 bg-primary">
+                    <p>
+                        Engineering being a professional field the newcomers especially FYs find it really difficult to cope up with their deadlines and often end with KTs
+                    </p>
+
+
+                     
+                 </div>
+            </div>
+            
+
+        </div>
+    </section>
+    <section>
+        <div class="container  mx-auto text-center mt-5 mb-3 vjti" id="vjti">
+          
+            <h1>VJTI</h1>
+            <hr class="w-25 bg-primary mt-4">
+            <br>
+            <p>VJTI Mumbai has pioneered India's Engineering and Technology education, research and training since 1887 as Victoria Jubilee Technical Institute. Pre-independence, VJTI had been instrumental in driving Industry 2.0 throughout united India. Post-independence, VJTI played a pivotal role in setting up IITs and RECs of India and strengthened engineering and technology excellence of country through Industry 3.0. In 1997, VJTI name is changed to Veermata Jijabai Technological Institute to honor mother of Chhatrapati Shivaji Maharaj.
+
+                Located in South Mumbai, VJTI is an autonomous institution of repute, owned by Maharashtra State Government.</p>
+ 
+        </div>
+    </section>
+    <section class="mt-4 mb-4" id="developer">
+      <h1 class="text-center"> Developer</h1>
+      <hr class="w-25 bg-primary mt-4">
+      <br>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+      <div class="card mb-4" style="width:400px">
+        <img class="card-img-top"  src="sayushi.png" alt="Card image">
+        
+        <div class="card-body">
+          <h4 class="card-title">Sayush Kamat</h4>
+          <p class="card-text">I am Sayush and I pursue Btech in IT at VJTI</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12">
+      <div class="card mb-4" style="width:400px">
+        <img class="card-img-top"  src="sayushi.png" alt="Card image">
+        
+        <div class="card-body">
+          <h4 class="card-title">Sayush Kamat</h4>
+          <p class="card-text">I am Sayush and I pursue Btech in IT at VJTI</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12">
+      <div class="card mb-4" style="width:400px">
+        <img class="card-img-top"  src="sayushi.png" alt="Card image">
+        
+        <div class="card-body">
+          <h4 class="card-title">Sayush Kamat</h4>
+          <p class="card-text">I am Sayush and I pursue Btech in IT at VJTI</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    </div>
+      
+    </section>
+
+
+
+
+
+
+
+
+
+ 
+ <section>
+   <div class="container bg-danger mx-auto text-center mt-5 mb-3" id="contact">
+    <h1>CONTACT US</h1>
+    <form>
+      <div class="row mb-2">
+        <div class="col-lg-6 col-md-6 col-12">
+          <input type="text" class="form-control" id="email" placeholder="Enter email"><br>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+         <textarea type="text" class="form-control" placeholder="Enter message"></textarea>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="button" class="btn btn-primary mx-auto" value="submit"></button>
+      </div>
+    </form>
+    <hr class="w-25 bg-primary mt-4">
+    <br>
+    
+
+   </div>
+ </section>
+
+  <section>
+    <footer>
+      <h4 class="text-center">SAYUSH KAMAT &copy;2020</h4>
+    </footer>
+  </section>
+  
+      <script src="scri.js"></script>
+      <script>
+     $(document).ready(function(){
+      $(window).scroll(function(){
+       
+       var positiontop=$(document).scrollTop();
+       console.log(positiontop);
+
+      });
+     });
+
+
+      </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

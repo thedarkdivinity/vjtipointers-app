@@ -1,0 +1,43 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E9EDEC;
+}
+.con
+{ height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.empl{
+  
+    position: absolute;
+    float: left;
+    animation-name: go;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes go{
+    0%{
+        left:0%;
+    }
+    100%{
+        left: 80%;
+    }
+}
+span
+{
+    width: 40px;
+    height: 40px;
+}
+
